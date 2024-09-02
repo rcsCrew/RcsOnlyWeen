@@ -1,0 +1,92 @@
+.bg img{
+  width: 100%;
+  position: fixed;background-size:cover;
+  z-index: -9;
+}
+.titulo {
+  padding-top: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo img{
+width: 400px;
+min-width: 30px;
+}
+.ingressos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ingressos img{
+  width: 30%;
+  margin-left: 50%;
+}
+.grama img{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  z-index: -8;
+
+}
+
+.button {
+  display: flex;
+
+  position: absolute;
+}
+.button a{
+  padding: 15px 30px;
+  border: solid 1px red;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.button a:hover{
+  transform: scale(1.1);
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.voltar a{
+  position: absolute;
+  border: solid 1px red;
+  border-radius: 15px;
+  font-weight: 700;
+  left: 10px;
+  top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: red;
+  text-decoration: none;
+
+}
+
+@media only screen and (max-width: 785px) {
+.ingressos{
+  display: none;
+}
+.titulo{
+  padding-top: 30vh;
+  width: 100%;
+}
+.titulo img{
+  width: 300px;
+  margin-bottom: 50px;
+}
+.grama img{
+  width: 500%;
+}
+}
+@media only screen and (max-width: 600px) {
+
+}
